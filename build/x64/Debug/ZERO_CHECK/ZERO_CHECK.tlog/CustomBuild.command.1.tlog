@@ -1,0 +1,10 @@
+^C:\USERS\FAMILIA MEJÍA\GITHUB-SECURITY-DEMO-CPP\BUILD\CMAKEFILES\0967FD8F157244FEEE12AC836D5FCBA3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Familia Mejía/github-security-demo-cpp" "-BC:/Users/Familia Mejía/github-security-demo-cpp/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Familia Mejía/github-security-demo-cpp/build/github_security_demo_cpp.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

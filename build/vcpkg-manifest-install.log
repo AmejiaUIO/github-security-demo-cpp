@@ -1,0 +1,81 @@
+Detecting compiler hash for triplet x64-windows...
+A suitable version of powershell-core was not found (required v7.6.6).
+Downloading https://github.com/PowerShell/PowerShell/releases/download/v7.6.6/PowerShell-7.6.6-win-x64.zip -> PowerShell-7.6.6-win-x64.zip
+Successfully downloaded PowerShell-7.6.6-win-x64.zip
+Extracting powershell-core...
+A suitable version of 7zip was not found (required v26.03).
+Downloading https://github.com/ip7z/7zip/releases/download/26.03/7z2603-x64.exe -> 7z2603-x64.7z.exe
+Successfully downloaded 7z2603-x64.7z.exe
+Extracting 7zip...
+A suitable version of 7zr was not found (required v26.03).
+Downloading https://github.com/ip7z/7zip/releases/download/26.03/7zr.exe -> 211a9748-7zr.exe
+Successfully downloaded 211a9748-7zr.exe
+Compiler found: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+The following packages will be built and installed:
+  * vcpkg-cmake:x64-windows@2025-08-07
+  * vcpkg-cmake-config:x64-windows@2026-07-21
+    zlib:x64-windows@1.3.2#2
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from C:\Users\Familia Mej├¡a\AppData\Local\vcpkg\archives in 640 us. Use --debug to see more details.
+Installing 1/3 vcpkg-cmake-config:x64-windows@2026-07-21...
+vcpkg-cmake-config:x64-windows@2026-07-21 package ABI: 5ec285f9207ce07390c22b53883a83e61e502ba896e6463bf0bc2d5d8fb750ef
+Building vcpkg-cmake-config:x64-windows@2026-07-21...
+-- Installing: C:/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of vcpkg-cmake-config:x64-windows@2026-07-21 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 129 ms
+Installing 2/3 vcpkg-cmake:x64-windows@2025-08-07...
+vcpkg-cmake:x64-windows@2025-08-07 package ABI: f428af3960f2ea145544afeb9d418b2de033be3a9ba1be38159cbd6fc2523258
+Building vcpkg-cmake:x64-windows@2025-08-07...
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: C:/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-cmake:x64-windows@2025-08-07 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake:x64-windows: 96.7 ms
+Completed submission of vcpkg-cmake-config:x64-windows@2026-07-21 to 1 binary cache(s) in 72.7 ms
+Installing 3/3 zlib:x64-windows@1.3.2#2...
+zlib:x64-windows@1.3.2#2 package ABI: f7b187d97178d555a765f221ea7b714f61a9985186d6a1f4ef49f459bbed309a
+Building zlib:x64-windows@1.3.2#2...
+Downloading https://github.com/madler/zlib/archive/v1.3.2.tar.gz -> madler-zlib-v1.3.2.tar.gz
+Successfully downloaded madler-zlib-v1.3.2.tar.gz
+-- Extracting source C:/vcpkg/downloads/madler-zlib-v1.3.2.tar.gz
+-- Applying patch 0001-no-version-script-on-ohos.patch
+-- Using source at C:/vcpkg/buildtrees/zlib/src/v1.3.2-c19a0bfd23.clean
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/vcpkg/packages/zlib_x64-windows/lib/pkgconfig/zlib.pc
+Downloading msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst, trying https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+Successfully downloaded msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+Downloading msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst, trying https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+Successfully downloaded msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at C:/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/vcpkg/packages/zlib_x64-windows/debug/lib/pkgconfig/zlib.pc
+-- Installing: C:/vcpkg/packages/zlib_x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake
+-- Installing: C:/vcpkg/packages/zlib_x64-windows/share/zlib/copyright
+-- Performing post-build validation
+Starting submission of zlib:x64-windows@1.3.2#2 to 1 binary cache(s) in the background
+Elapsed time to handle zlib:x64-windows: 16 s
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Packages installed in this vcpkg installation declare the following licenses:
+MIT
+Zlib
+zlib is compatible with built-in CMake targets:
+
+  find_package(ZLIB REQUIRED)
+  target_link_libraries(main PRIVATE ZLIB::ZLIB)
+
+zlib provides pkg-config modules:
+
+  # zlib compression library
+  zlib
+
+Completed submission of vcpkg-cmake:x64-windows@2025-08-07 to 1 binary cache(s) in 43.5 ms
+Waiting for 1 remaining binary cache submissions...
+Completed submission of zlib:x64-windows@1.3.2#2 to 1 binary cache(s) in 125 ms (1/1)
+All requested installations completed successfully in: 16 s
