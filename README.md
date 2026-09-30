@@ -9,8 +9,9 @@ GitHub security features:
 2. **CodeQL (code scanning)** — flags a stack buffer overflow (unbounded
    `strcpy`) and a command injection vulnerability (`system()` call) in
    `main.cpp`.
-3. **Secret scanning + push protection** — flags the fake AWS credentials
-   in `config.h`, and blocks any new pushes containing similar patterns.
+3. **Secret scanning + push protection** — >> // NOTE: This is a FAKE Slack webhook URL used only for demonstrating
+GitHub Secret Scanning. It is randomly generated and does not point to any real Slack workspace or channel.
+in `config.h`, and blocks any new pushes containing similar patterns. Need to allow this secret and choose an option  then push and check alert status.
 
 ⚠️ This project is intentionally insecure. Do not deploy it or reuse this
 code in a real application. All "secrets" here are fake, publicly
